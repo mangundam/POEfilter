@@ -4,13 +4,13 @@ Show
     SetFontSize 35
 	
 #挑戰
-#Show
-	#BaseType "Turn the Other Cheek" "Azyran's Reward" "A Mother's Parting Gift" "The Primordial" "The Endurance" "Shard of Fate" "The Eye of the Dragon"
-	#SetBorderColor 0 0 0
-	#SetBackgroundColor 255 255 255 220
-	#SetTextColor 0 0 0 200
-	#SetFontSize 45
-	#MinimapIcon 2 White Star
+Show
+	BaseType "The Deal" "Buried Treasure" "Cameria's Cut" "Nook's Crown" "Dark Dreams" "The Hale Heart" "The Price of Loyalty" "Echoes of Love" "Arrogance of the Vaal" "The Lord of Celebration" "Perfection" "The Celestial Stone" "Void of the Elements" "Buried Treasure" "More is Never Enough" "The Deal" "Cameria's Cut"	#SetBorderColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255 220
+	SetTextColor 0 0 0 200
+	SetFontSize 45
+	MinimapIcon 2 White Star
 	
 #顯示,古典鑰匙
 Show
@@ -35,7 +35,17 @@ Show
 	SetBorderColor 0 255 0
 	SetTextColor 80 255 80
 	#SetBackgroundColor 60 80 60
-
+	
+#天賦珠寶
+Show
+	Class "Jewel"
+	BaseType "Cluster Jewel"
+	SetFontSize 45
+	MinimapIcon 0 Cyan Moon
+	PlayEffect Cyan
+	SetTextColor 130 130 130
+	SetBackgroundColor 200 200 200
+	SetBorderColor 80 80 80
 #顯示,傳奇物品,橘框,字體35
 Show
     Rarity = Unique
@@ -62,6 +72,7 @@ Show
     SetFontSize 42
 	MinimapIcon 2 White Circle
 
+###
 #顯示,機會石,金框,透白字,字體35
 Show
     BaseType "Sorcerer Boots"
@@ -69,6 +80,7 @@ Show
     SetBorderColor 255 255 0
     SetTextColor 255 255 255 100
     SetFontSize 35
+###
 
 #顯示,地圖,汙染門,金框,橘字,字體42
 Show
@@ -92,7 +104,7 @@ Show
 #顯示,特爛卡片
 Hide
     Class "Divination Card"
-	BaseType "Anarchy's Price" "Boon of Justice" "Call to the First Ones" "Dark Temptation" "Death" "Destined to Crumble" "Forbidden Power" "Lantador's Lost Love" "Light and Truth" "Merciless Armament" "Shard of Fate" "Struck by Lightning" "The Archmage's Right Hand" "The Army of Blood" "The Blazing Fire" "The Carrion Crow" "The Coming Storm" "The Conduit" "The Deceiver" "The Deep Ones" "The Demoness" "The Dragon" "The Endurance" "The Feast" "The Fletcher" "The Flora's Gift" "The Incantation" "The Inoculated" "The Jester" "The King's Blade" "The Lich" "The Metalsmith's Gift" "The Opulent" "The Rabid Rhoa" "The Road to Power" "The Sigil" "The Siren" "The Surgeon" "The Twins" "The Tyrant" "The Warden" "The Watcher" "The Wolf's Shadow" "Thirst for Knowledge" "Thunderous Skies" "Tranquillity" "Turn the Other Cheek" "Vile Power"
+	BaseType "Anarchy's Price" "Boon of Justice" "Call to the First Ones" "Dark Temptation" "Death" "Destined to Crumble" "Forbidden Power" "Lantador's Lost Love" "Light and Truth" "Merciless Armament" "Shard of Fate" "Struck by Lightning" "The Archmage's Right Hand" "The Army of Blood" "The Blazing Fire" "The Carrion Crow" "The Coming Storm" "The Conduit" "The Deceiver" "The Deep Ones" "The Demoness" "The Dragon" "The Endurance" "The Feast" "The Fletcher" "The Flora's Gift" "The Incantation" "The Inoculated" "The Jester" "The King's Blade" "The Lich" "The Metalsmith's Gift" "The Opulent" "The Rabid Rhoa" "The Road to Power" "The Sigil" "The Siren" "The Surgeon" "The Twins" "The Tyrant" "The Warden" "The Watcher" "The Wolf's Shadow" "Thirst for Knowledge" "Thunderous Skies" "Vile Power"
     SetBorderColor 255 255 255 150
     SetTextColor 255 255 255
     SetFontSize 42
@@ -219,7 +231,7 @@ Show
 Show
     
 	Class Currency
-    BaseType "Timeless Vaal Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Maraketh Splinter" "Timeless Karui Splinter"
+    BaseType "Simulacrum" "Simulacrum Splinter" "Timeless Vaal Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Maraketh Splinter" "Timeless Karui Splinter"
     SetTextColor 200 102 220
     SetFontSize 40
 	PlayEffect Green
@@ -256,7 +268,13 @@ Show
     BaseType "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Silver Coin" "Ancient Orb" "Annulment Shard" "Binding Shard" "Horizon Shard" "Harbinger's Shard" "Engineer's Shard" "Ancient Shard" "Chaos Shard" "Regal Shard" "Stacked Deck"
     SetFontSize 45
 	
-	
+#膽妄
+Show
+	Class Currency
+	BaseType "Delirium Orb"
+	SetFontSize 45
+	SetTextColor 220 140 80
+	MinimapIcon 0 Orange Pentagon
 #油
 Show
 	BaseType "Black Oil" "Crimson Oil" "Opalescent Oil" "Silver Oil" "Golden Oil"
@@ -286,7 +304,12 @@ Show
     BaseType "Resonator"
 	SetTextColor 100 60 255
     SetFontSize 40
-
+#聖甲蟲
+Show
+	Class Map Fragment
+	BaseType "Scarab"
+	SetFontSize 40
+	MinimapIcon 0 Grey Kite
 #顯示,高價通貨,紅字,橘框,字體42
 Show
     Class Currency
@@ -325,7 +348,14 @@ Show
     SetTextColor 150 255 255
 	SetBackgroundColor 60 60 60 20
 	SetFontSize 50
+	MinimapIcon 0 Cyan Kite
 
+#瓦爾技能
+Show
+	Class "Skill Gems"
+	Corrupted True
+	SetBorderColor 255 0 0
+    SetTextColor 107 253 246 
 #顯示,淡藍字,品質1UP,白框
 Show
     Class "Skill Gems"
