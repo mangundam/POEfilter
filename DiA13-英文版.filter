@@ -5,7 +5,7 @@ Show
 	
 #挑戰
 Show
-	BaseType "The Deal" "Buried Treasure" "Cameria's Cut" "Nook's Crown" "Dark Dreams" "The Hale Heart" "The Price of Loyalty" "Echoes of Love" "Arrogance of the Vaal" "The Lord of Celebration" "Perfection" "The Celestial Stone" "Void of the Elements" "Buried Treasure" "More is Never Enough" "The Deal" "Cameria's Cut"
+	BaseType "Three Voices" "The Lord of Celebration" "A Note in the Wind" "Akil's Prophecy" "Beauty Through Death" "Friendship" "Immortal Resolve" "The Iron Bard" "The Jeweller's Boon" "The Mad King" "The Side Quest" "The Valley of Steel Boxes" "Vile Power" "Deathly Designs" "Dialla's Subjugation" "Gemcutter's Promise" "Gift of the Gemling Queen" "Grave Knowledge" "The Artist" "The Bones" "The Cataclysm" "The Cheater" "The Doppelganger" "The Dragon's Heart" "The Enlightened" "The Fox" "The Realm" "The Rite of Elements" "The Skeleton" "The Summoner" "The Wilted Rose" "Volatile Power" "Wealth and Power" "Arrogance of the Vaal" "Echoes of Love" "Etched in Blood" "The Sustenance" "Gift of Asenath" "The Price of Loyalty" "The Greatest Intentions" "The Demon"
 	SetBorderColor 0 0 0
 	SetBackgroundColor 255 255 255 220
 	SetTextColor 0 0 0 200
@@ -20,7 +20,7 @@ Show
 	MinimapIcon 0 Green Star
 	PlayEffect Green
 	
-#顯示,古典鑰匙
+#顯示,艾瓦鑰匙
 Show
 	BaseType "Stone of Passage"
 	SetBorderColor 120 255 120
@@ -35,7 +35,6 @@ Show
 	SetBorderColor 0 255 0
 	SetTextColor 80 255 80
 	#SetBackgroundColor 60 80 60
-	
 	
 #天賦珠寶
 Show
@@ -304,8 +303,49 @@ Show
 	SetFontSize 40
 	MinimapIcon 0 Grey Kite
 	
-
-
+#HARVEST
+Show
+	Class Currency
+	BaseType "Infused Engineer's Orb" "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Indigo Oil"
+	SetTextColor 51 186 239
+	SetBackgroundColor 9 42 62
+	SetFontSize 45
+	
+#一階種子
+Show
+	BaseType Seed
+	SetTextColor 147 88 71
+	SetBackgroundColor 9 42 62
+	SetFontSize 40
+	
+#二階種子
+Show
+	BaseType Grain
+	SetTextColor 230 192 134
+	SetBackgroundColor 9 42 62
+	SetFontSize 42
+	
+#三階種子
+Show
+	BaseType Bulb
+	SetTextColor 193 219 152
+	SetBackgroundColor 9 42 62
+	SetFontSize 44
+	
+#四階種子
+Show
+	BaseType fruit
+	SetTextColor 51 186 239
+	SetBackgroundColor 9 42 62
+	SetFontSize 46
+	MinimapIcon 1 Cyan Raindrop 
+	
+#女神祭品
+Show
+	BaseType "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
+	SetBackgroundColor 48 65 178
+	SetTextColor 114 193 197
+	
 #顯示,高價通貨,紅字,橘框,字體42
 Show
     Class Currency
@@ -406,7 +446,7 @@ Show
 	
 #藥水
 Show
-    BaseType "Granite Flask" "Amethyst Flask" "Quicksilver Flask"
+    BaseType "Granite Flask" "Quicksilver Flask"
     Rarity = Normal Magic
     SetTextColor 255 255 255 100
     SetFontSize 35

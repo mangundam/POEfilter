@@ -1,18 +1,16 @@
-#顯示,任務道具,字體35
+﻿#顯示,任務道具,字體35
 Show
     Class "Quest Item" "Atlas Region Upgrade Item"
     SetFontSize 35
 	
-	###
 #挑戰
 Show
-	BaseType "The Lord of Celebration" "Perfection" "The Celestial Stone" "Void of the Elements" "Buried Treasure" "More is Never Enough" "The Deal" "Cameria's Cut"
+	BaseType "Three Voices" "The Lord of Celebration" "A Note in the Wind" "Akil's Prophecy" "Beauty Through Death" "Friendship" "A Master Seeks Help" "Immortal Resolve" "The Iron Bard" "The Jeweller's Boon" "The Mad King" "The Side Quest" "The Valley of Steel Boxes" "Vile Power" "Deathly Designs" "Dialla's Subjugation" "Gemcutter's Promise" "Gift of the Gemling Queen" "Grave Knowledge" "The Artist" "The Bones" "The Cataclysm" "The Cheater" "The Doppelganger" "The Dragon's Heart" "The Enlightened" "The Fox" "The Realm" "The Rite of Elements" "The Skeleton" "The Summoner" "The Wilted Rose" "Volatile Power" "Wealth and Power" "Arrogance of the Vaal" "Echoes of Love" "Etched in Blood" "The Sustenance" "Gift of Asenath" "The Price of Loyalty" "The Greatest Intentions" "The Demon"
 	SetBorderColor 0 0 0
 	SetBackgroundColor 255 255 255 220
 	SetTextColor 0 0 0 200
 	SetFontSize 45
 	MinimapIcon 2 White Star
-	###
 	
 #顯示,古典鑰匙
 Show
@@ -84,7 +82,7 @@ Show
 #顯示,特殊卡片
 Show
     Class "Divination Card"
-	BaseType "Humility" "A Dab of Ink" "Abandoned Wealth" "Alone in the Darkness""Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Beauty Through Death" "Blind Venture" "Boon of Justice" "Boon of the First Ones" "Boundless Realms" "Bowyer's Dream" "Call to the First Ones" "Cartographer's Delight" "Chaotic Disposition" "Coveted Possession" "Dialla's Subjugation" "Dying Anguish" "Earth Drinker" "Emperor of Purity" "Emperor's Luck" "Gemcutter's Promise" "Gift of the Gemling Queen" "Glimmer of Hope" "Grave Knowledge" "Harmony of Souls" "Her Mask" "Heterochromia" "Hope" "House of Mirrors" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Left to Fate" "Lingering Remnants" "Lost Worlds" "Loyalty" "Lucky Connections" "Lucky Deck" "Lysah's Respite" "Mawr Blaidd" "Might is Right" "Mitts" "Monochrome" "No Traces" "Perfection" "Pride Before the Fall" "Rain Tempter" "Rain of Chaos" "Rats" "Rebirth" "Sambodhi's Vow" "Scholar of the Seas" "Seven Years Bad Luck" "The Admirer" "The Aesthete" "The Arena Champion" "The Artist" "The Avenger" "The Battle Born" "The Beast" "The Betrayal" "The Body" "The Breach" "The Brittle Emperor" "The Cacophony" "The Cartographer" "The Cataclysm" "The Catalyst" "The Celestial Justicar" "The Celestial Stone" "The Chains that Bind" "The Cursed King" "The Dapper Prodigy" "The Dark Mage" "The Darkest Dream" "The Devastator" "The Doctor" "The Dragon's Heart" "The Dreamer" "The Dreamland" "The Encroaching Darkness" "The Endless Darkness" "The Enlightened" "The Ethereal" "The Explorer" "The Eye of the Dragon" "The Fathomless Depths" "The Fiend" "The Formless Sea" "The Fox" "The Hale Heart" "The Hoarder" "The Hunger" "The Immortal" "The Innocent" "The Inventor" "The Iron Bard" "The Jeweller's Boon" "The Journey" "The King's Heart" "The Landing" "The Last One Standing" "The Life Thief" "The Mayor" "The Messenger" "The Nurse" "The Offering" "The Polymath" "The Professor" "The Saint's Treasure" "The Seeker" "The Sephirot" "The Stormcaller" "The Twilight Moon" "The Valley of Steel Boxes" "The Vast" "The Void" "The Wind" "The Wrath" "The World Eater" "Vinia's Token" "Wealth and Power"
+	BaseType "The Polymath" "Humility" "A Dab of Ink" "Abandoned Wealth" "Alone in the Darkness""Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Beauty Through Death" "Blind Venture" "Boon of Justice" "Boon of the First Ones" "Boundless Realms" "Bowyer's Dream" "Call to the First Ones" "Cartographer's Delight" "Chaotic Disposition" "Coveted Possession" "Dialla's Subjugation" "Dying Anguish" "Earth Drinker" "Emperor of Purity" "Emperor's Luck" "Gemcutter's Promise" "Gift of the Gemling Queen" "Glimmer of Hope" "Grave Knowledge" "Harmony of Souls" "Her Mask" "Heterochromia" "Hope" "House of Mirrors" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Left to Fate" "Lingering Remnants" "Lost Worlds" "Loyalty" "Lucky Connections" "Lucky Deck" "Lysah's Respite" "Mawr Blaidd" "Might is Right" "Mitts" "Monochrome" "No Traces" "Perfection" "Pride Before the Fall" "Rain Tempter" "Rain of Chaos" "Rats" "Rebirth" "Sambodhi's Vow" "Scholar of the Seas" "Seven Years Bad Luck" "The Admirer" "The Aesthete" "The Arena Champion" "The Artist" "The Avenger" "The Battle Born" "The Beast" "The Betrayal" "The Body" "The Breach" "The Brittle Emperor" "The Cacophony" "The Cartographer" "The Cataclysm" "The Catalyst" "The Celestial Justicar" "The Celestial Stone" "The Chains that Bind" "The Cursed King" "The Dapper Prodigy" "The Dark Mage" "The Darkest Dream" "The Devastator" "The Doctor" "The Dragon's Heart" "The Dreamer" "The Dreamland" "The Encroaching Darkness" "The Endless Darkness" "The Enlightened" "The Ethereal" "The Explorer" "The Eye of the Dragon" "The Fathomless Depths" "The Fiend" "The Formless Sea" "The Fox" "The Hale Heart" "The Hoarder" "The Hunger" "The Immortal" "The Innocent" "The Inventor" "The Iron Bard" "The Jeweller's Boon" "The Journey" "The King's Heart" "The Landing" "The Last One Standing" "The Life Thief" "The Mayor" "The Messenger" "The Nurse" "The Offering" "The Polymath" "The Professor" "The Saint's Treasure" "The Seeker" "The Sephirot" "The Stormcaller" "The Twilight Moon" "The Valley of Steel Boxes" "The Vast" "The Void" "The Wind" "The Wrath" "The World Eater" "Vinia's Token" "Wealth and Power"
     SetBorderColor 0 0 0 255
     SetTextColor 0 0 0
 	SetBackgroundColor 180 180 180
@@ -272,6 +270,49 @@ Show
 	SetFontSize 40
 	MinimapIcon 0 Grey Kite
 	
+#HARVEST
+Show
+	Class Currency
+	BaseType "Infused Engineer's Orb" "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens" "Indigo Oil"
+	SetTextColor 51 186 239
+	SetBackgroundColor 9 42 62
+	SetFontSize 45
+	
+#一階種子
+Show
+	BaseType Seed
+	SetTextColor 147 88 71
+	SetBackgroundColor 9 42 62
+	SetFontSize 40
+	
+#二階種子
+Show
+	BaseType Grain
+	SetTextColor 230 192 134
+	SetBackgroundColor 9 42 62
+	SetFontSize 42
+	
+#三階種子
+Show
+	BaseType Bulb
+	SetTextColor 193 219 152
+	SetBackgroundColor 9 42 62
+	SetFontSize 44
+	
+#四階種子
+Show
+	BaseType fruit
+	SetTextColor 51 186 239
+	SetBackgroundColor 9 42 62
+	SetFontSize 46
+	MinimapIcon 1 Cyan Raindrop 
+	
+#女神祭品
+Show
+	BaseType "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
+	SetBackgroundColor 48 65 178
+	SetTextColor 114 193 197
+	
 #天賦珠寶
 Show
 	Class "Jewel"
@@ -377,6 +418,10 @@ Show
     SetFontSize 35
 	
 Show
+	BaseType "Eternal Life Flask" "Eternal Mana Flask"
+	SetFontSize 40
+	SetBorderColor 255 255 255
+	
+Show
     Rarity = Magic Normal
     Class "Flasks"
-
