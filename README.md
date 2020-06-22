@@ -56,6 +56,6 @@ DiA13-怠惰版lazy(tired):
 	
 	
 2020/06/22
-增加種子、Harvest聯盟新通貨、新女神祭品、挑戰用命運卡、永恆藥劑加上白框
+增加種子、Harvest聯盟新通貨、新女神祭品、挑戰用命運卡、永恆藥劑加上白框/n
 Add: Harvest Seed, Grain, Bulb, Fruit, new Goddess, new Currency, Challenges Divination, Eternal flask add white border.	
 
