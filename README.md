@@ -1,6 +1,7 @@
 path of exile's filter
 (* mean has different with common) 
 DiA13-藥水英文版Flask(common): 
+
 	Currency:All 
 	Quest Item:All
 	Rare Item:All
