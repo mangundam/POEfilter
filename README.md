@@ -19,6 +19,7 @@ DiA13-藥水英文版Flask(common):
 	Essence:All
 
 DiA13-英文版(make money): 
+
 	Currency:All 
 	Quest Item:All
 	*Rare Item:exclude one hand
@@ -36,6 +37,7 @@ DiA13-英文版(make money):
 	Essence:All
 
 DiA13-怠惰版lazy(tired): 
+
 	*Currency:exlude Scroll of Wisdom 
 	Quest Item:All 
 	*Rare Item:only Amulet, Rings, Belts 
