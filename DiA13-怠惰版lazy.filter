@@ -102,7 +102,7 @@ Show
 #顯示,特爛卡片
 Hide
     Class "Divination Card"
-	BaseType "Anarchy's Price" "Boon of Justice" "Call to the First Ones" "Dark Temptation" "Death" "Destined to Crumble" "Forbidden Power" "Lantador's Lost Love" "Light and Truth" "Merciless Armament" "Shard of Fate" "Struck by Lightning" "The Archmage's Right Hand" "The Army of Blood" "The Blazing Fire" "The Carrion Crow" "The Coming Storm" "The Conduit" "The Deceiver" "The Deep Ones" "The Demoness" "The Dragon" "The Endurance" "The Feast" "The Fletcher" "The Flora's Gift" "The Incantation" "The Inoculated" "The Jester" "The King's Blade" "The Lich" "The Metalsmith's Gift" "The Opulent" "The Rabid Rhoa" "The Road to Power" "The Sigil" "The Siren" "The Surgeon" "The Twins" "The Tyrant" "The Warden" "The Watcher" "The Wolf's Shadow" "Thirst for Knowledge" "Thunderous Skies" "Vile Power"
+	BaseType "The Lover" "Anarchy's Price" "Boon of Justice" "Call to the First Ones" "Dark Temptation" "Death" "Destined to Crumble" "Forbidden Power" "Lantador's Lost Love" "Light and Truth" "Merciless Armament" "Shard of Fate" "Struck by Lightning" "The Archmage's Right Hand" "The Army of Blood" "The Blazing Fire" "The Carrion Crow" "The Coming Storm" "The Conduit" "The Deceiver" "The Deep Ones" "The Demoness" "The Dragon" "The Endurance" "The Feast" "The Fletcher" "The Flora's Gift" "The Incantation" "The Inoculated" "The Jester" "The King's Blade" "The Lich" "The Metalsmith's Gift" "The Opulent" "The Rabid Rhoa" "The Road to Power" "The Sigil" "The Siren" "The Surgeon" "The Twins" "The Tyrant" "The Warden" "The Watcher" "The Wolf's Shadow" "Thirst for Knowledge" "Thunderous Skies" "Vile Power"
     SetBorderColor 255 255 255 150
     SetTextColor 255 255 255
     SetFontSize 42
@@ -215,7 +215,7 @@ Show
     SetFontSize 40
 	PlayEffect Yellow
 	MinimapIcon 0 Yellow Circle
-	
+
 #HEIST new
 Show
 	BaseType "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Rogue's Marker" #"Tailoring Orb "
@@ -301,8 +301,9 @@ Show
 	BaseType "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
 	SetBackgroundColor 48 65 178
 	SetTextColor 114 193 197
-#***********聯盟道具***********/
 	
+	
+#***********聯盟道具***********/
 #***********裝備***********
 #顯示,五連裝,橘框,白字,字體35
 Hide
@@ -356,7 +357,7 @@ Show
 	HasEnchantment ""
 	SetBackgroundColor 240 220 120
 	SetTextColor 0 0 0
-
+	
 Show
 	HasExplicitMod "Veil"
 Show
@@ -407,7 +408,7 @@ Show
     SetBorderColor 255 255 0
     SetFontSize 35
 	MinimapIcon 0 Brown Star
-	
+
 #顯示,製圖釘材料,稀有度普通,白框,透明深紫字,透明灰底
 Hide
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
