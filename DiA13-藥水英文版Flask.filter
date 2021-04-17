@@ -182,6 +182,13 @@ Show
 #***********通貨***********
 
 #***********聯盟道具***********
+#Ultimatum
+Show
+	BaseType "Veiled Chaos Orb" "Vaal Reliquary Key" "Inscribed Ultimatum"
+	SetTextColor 255 200 200
+	SetBackgroundColor 200 20 43 200
+	SetFontSize 40
+
 #Ritual
 Show
 	BaseType "Orb of Unmaking" "Maven's Orb" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "The Maven's Writ" "Blood-filled Vessel"
@@ -236,7 +243,7 @@ Show
 
 #油
 Show
-	BaseType "Black Oil" "Crimson Oil" "Opalescent Oil" "Silver Oil" "Golden Oil" "Indigo Oil"
+	BaseType "Black Oil" "Crimson Oil" "Opalescent Oil" "Silver Oil" "Golden Oil" "Indigo Oil" "Tainted Oil"
 	SetFontSize 40
 	SetTextColor 180 160 40
 	

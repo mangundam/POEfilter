@@ -186,6 +186,13 @@ Show
 #***********通貨***********
 
 #***********聯盟道具***********
+#Ultimatum
+Show
+	BaseType "Veiled Chaos Orb" "Vaal Reliquary Key" "Inscribed Ultimatum"
+	SetTextColor 255 200 200
+	SetBackgroundColor 200 20 43 200
+	SetFontSize 40
+	
 #Ritual
 Show
 	BaseType "Orb of Unmaking" "Maven's Orb" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "The Maven's Writ" "Blood-filled Vessel"
@@ -241,7 +248,7 @@ Show
 
 #油
 Show
-	BaseType "Black Oil" "Crimson Oil" "Opalescent Oil" "Silver Oil" "Golden Oil" "Indigo Oil"
+	BaseType "Black Oil" "Crimson Oil" "Opalescent Oil" "Silver Oil" "Golden Oil" "Indigo Oil" "Tainted Oil"
 	SetFontSize 40
 	SetTextColor 180 160 40
 	
@@ -374,9 +381,9 @@ Show
     SetBorderColor 255 0 0 150
 	
 #角色用的武器
-#Show
-	#Rarity = Rare
-	#Class "Rune Daggers" "Daggers" "Wands" "Shields"
+Show
+	Rarity = Rare
+	Class "Bow" "Quivers"
 	
 #隱藏單手武器,搬磚用
 Hide
@@ -475,7 +482,7 @@ Show
     SetBorderColor 255 255 255
     SetTextColor 107 253 246 
 
-#***********技能***********
+#***********技能***********/
 
 #顯示,淡藍字,黑底
 Hide
