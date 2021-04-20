@@ -137,6 +137,13 @@ Show
     SetTextColor 200 102 220
     SetFontSize 40
 	PlayEffect Green
+	
+Show
+	Class Currency
+    BaseType "Xoph" "tul" "Chayula" "Uul-Netol" "Esh"
+    SetTextColor 230 60 150
+	SetBorderColor 230 60 150 120
+    SetFontSize 35
 
 #顯示,一般通貨,紅字,字體35
 Show
