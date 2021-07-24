@@ -146,7 +146,7 @@ Show
 
 Show
 	Class Currency
-    BaseType "Xoph" "tul" "Chayula" "Uul-Netol" "Esh"
+    BaseType "Xoph" "Tul" "Chayula" "Uul-Netol" "Esh"
     SetTextColor 230 60 150
 	SetBorderColor 230 60 150 120
     SetFontSize 35
@@ -194,6 +194,25 @@ Show
 #***********通貨***********/
 
 #***********聯盟道具***********
+#Expedition
+Show
+	BaseType "Runic"
+	SetTextColor 183 219 253
+	SetBackgroundColor 20 29 46 200
+	SetFontSize 40
+Show
+	BaseType "Enkindling Orb" "Instilling Orb" "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion"
+	SetTextColor 163 199 253
+	SetBackgroundColor 10 19 26 
+	SetBorderColor 100 109 126
+	SetFontSize 40
+Show
+	BaseType "Artifact"
+	SetTextColor 183 219 253
+	SetBackgroundColor 20 29 46 200
+	SetFontSize 40
+
+
 #Ultimatum
 Show
 	BaseType "Veiled Chaos Orb" "Vaal Reliquary Key" "Inscribed Ultimatum"
@@ -294,21 +313,6 @@ Show
 	SetTextColor 51 186 239
 	SetBackgroundColor 9 42 62
 	SetFontSize 45
-	
-	
-#一階種子
-Show
-	BaseType Seed
-	SetTextColor 147 88 71
-	SetBackgroundColor 9 42 62
-	SetFontSize 40
-	
-#三階種子
-Show
-	BaseType Bulb
-	SetTextColor 193 219 152
-	SetBackgroundColor 9 42 62
-	SetFontSize 44
 	
 #女神祭品
 Show
