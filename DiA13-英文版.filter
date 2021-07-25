@@ -168,7 +168,7 @@ Show
 #顯示,聯盟通貨,紅字,字體35
 Show
     Class Currency
-    BaseType "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Silver Coin" "Ancient Orb" "Annulment Shard" "Binding Shard" "Horizon Shard" "Harbinger's Shard" "Engineer's Shard" "Ancient Shard" "Chaos Shard" "Regal Shard" "Stacked Deck"
+    BaseType "Enkindling Orb" "Instilling Orb" "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Silver Coin" "Ancient Orb" "Annulment Shard" "Binding Shard" "Horizon Shard" "Harbinger's Shard" "Engineer's Shard" "Ancient Shard" "Chaos Shard" "Regal Shard" "Stacked Deck"
     SetFontSize 45
 	
 #顯示,高價通貨,紅字,橘框,字體42
@@ -194,6 +194,16 @@ Show
 
 #***********聯盟道具***********
 #Expedition
+Show
+	BaseType "Expedition Logbook"
+	SetTextColor 183 219 253
+	SetBackgroundColor 65 84 91 158
+	SetBorderColor 10 19 16
+	SetFontSize 40
+	
+Hide
+	BaseType "Runic Hatchet"
+
 Show
 	BaseType "Runic"
 	SetTextColor 183 219 253
