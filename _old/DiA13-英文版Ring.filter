@@ -1,0 +1,254 @@
+﻿#顯示,任務道具,字體35
+Show
+    Class "Quest Item"
+    SetFontSize 35
+	
+#顯示,古典鑰匙
+Show
+	BaseType "Ancient Reliquary Key"
+	SetBorderColor 120 255 120
+	SetFontSize 45
+	MinimapIcon 0 Green Star
+	PlayEffect Green
+
+#顯示,傳奇物品,橘框,字體35
+Show
+    Rarity = Unique
+    SetBorderColor 255 128 0
+    SetFontSize 35
+	MinimapIcon 2 Brown Square
+
+#顯示,三色連線,草綠框
+Show
+    SocketGroup RGB
+    SetBorderColor 0 255 128
+
+#顯示,地圖,汙染門,白框,草綠字,字體35
+Show
+    Class "Maps" "Map Fragments"
+    DropLevel <= 74
+    SetBorderColor 255 255 255
+    SetTextColor 0 255 128
+    SetFontSize 35
+	MinimapIcon 2 White Circle
+
+#顯示,地圖,汙染門,金框,草綠字,字體42
+Show
+    Class "Maps" "Map Fragments"
+    DropLevel >= 75
+    DropLevel <= 79
+    SetBorderColor 255 255 0
+    SetTextColor 0 255 128
+    SetFontSize 42
+	MinimapIcon 2 White Circle
+
+#顯示,機會石,金框,透白字,字體35
+Show
+    BaseType "Sorcerer Boots"
+    Rarity = Normal
+    SetBorderColor 255 255 0
+    SetTextColor 255 255 255 100
+    SetFontSize 35
+
+#顯示,地圖,汙染門,金框,橘字,字體42
+Show
+    Class "Maps" "Map Fragments"
+    DropLevel >= 80
+    SetBorderColor 255 255 0
+    SetTextColor 255 128 0
+    SetFontSize 42
+	MinimapIcon 2 Red Circle
+
+#顯示,卡片,透白框,白字,字體42
+Show
+    Class "Divination Card"
+    SetBorderColor 255 255 255 150
+    SetTextColor 255 255 255
+    SetFontSize 42
+
+#顯示,天賦寶珠,藍框,字體42
+Show
+    Class "Jewel"
+    SetBorderColor 255 153 51
+    SetFontSize 42
+
+#顯示,五連裝,橘框,白字,字體35
+Show
+    LinkedSockets 5
+    SetBorderColor 255 128 0
+    SetFontSize 35
+
+#顯示,六連以上,橘框,白字,字體35
+Show
+    LinkedSockets 6
+    SetBorderColor 255 128 0
+    SetTextColor 255 255 255
+    SetFontSize 35
+	PlayEffect Blue
+	MinimapIcon 0 Blue Triangle
+
+#顯示,六插槽,橘框,字體35
+Show
+    Sockets = 6
+    SetBorderColor 255 255 0
+    SetFontSize 35
+	PlayEffect Yellow
+
+#顯示,所有稀有飾品
+Show
+    Rarity = Rare
+    Class "Amulet" "Rings" "Belts"
+    SetBorderColor 255 0 0 150
+	MinimapIcon 0 Yellow Circle
+
+#顯示,所有稀有物品
+Show
+    Rarity = Rare
+    Class "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Bow" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Sceptres" "Gloves" "Boots" "Body" "Armours" "Helmets" "Shields" "Amulets" "Rings" "Quivers" "Belts"
+
+#顯示,所有飾品等84UP,深紅框,粉紅字,黑底
+Show
+    Rarity = Normal
+    Class "Amulet" "Rings" "Belts"
+    ItemLevel >= 84
+    SetBorderColor 204 0 0 
+    SetTextColor 255 204 204 
+    SetBackgroundColor 0 0 0 
+
+#顯示,所有物等84UP,深紅框,粉紅字,黑底
+Show
+    Rarity = Normal
+    Class "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Bow" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Sceptres" "Gloves" "Boots" "Body" "Armours" "Helmets" "Shields" "Amulets" "Rings" "Quivers" "Belts"
+    ItemLevel >= 84
+    SetBorderColor 204 0 0 80
+    SetTextColor 200 0 0 200
+    SetBackgroundColor 0 0 0 80 
+
+
+#顯示,通貨,白框
+Show
+    BaseType "Portal Scroll" "Scroll of Wisdom" "Blacksmith's Whetstone" "Armourer's Scrap"
+    SetBorderColor 255 255 255
+    SetTextColor 255 255 255 200
+    SetFontSize 45
+
+#顯示,一般通貨,紅字,字體35
+Show
+    
+    BaseType "Orb of Fusing"
+    SetTextColor 255 102 102
+    SetFontSize 45
+	PlayEffect White
+
+#顯示,一般通貨,紅字,字體35
+Show
+    Class Currency
+    BaseType "Jeweller's Orb" "Orb of Scouring" "Orb of Chance" "Blessed Orb" "Cartographer's Chisel" "Orb of Alchemy" "Orb of Alteration" "Chromatic Orb" "Orb of Transmutation" "Orb of Augmentation" "Glassblower's Bauble"
+    SetTextColor 255 102 102
+    SetFontSize 45
+
+#顯示,聯盟通貨,紅字,字體35
+Show
+    Class Currency
+    BaseType "Orb of Annulment" "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Harbinger's Orb" "Silver Coin" "Ancient Orb" "Annulment Shard" "Binding Shard" "Horizon Shard" "Harbinger's Shard" "Engineer's Shard" "Ancient Shard" "Chaos Shard" "Mirror Shard" "Exalted Shard" "Regal Shard" "Stacked Deck"
+    SetFontSize 45
+
+
+#顯示,高價通貨,紅字,橘框,字體42
+Show
+    Class Currency
+    BaseType "Chaos Orb" "Regal Orb" "Orb of Regret" "Gemcutter's Prism" "Vaal Orb" "Orb of Scouring"
+    SetTextColor 255 102 102
+    SetBorderColor 255 255 0
+    SetFontSize 45
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Diamond
+	
+#顯示,天價通貨,白字,橘框,字體42
+Show
+    Class Currency
+    BaseType "Mirror of Kalandra" "Eternal Orb" "Exalted Orb" "Divine Orb"
+    SetTextColor 255 102 102
+    SetBorderColor 255 128 0
+    SetFontSize 45
+	PlayEffect Red
+	MinimapIcon 0 Red Diamond
+
+#顯示,金字,透紫框,黑底,字體35
+Show
+    Class "Skill Gems"
+    BaseType "Portal" "Enlighten Support" "Empower Support" "Enhance Support"
+    SetBorderColor 204 204 0 200
+    SetTextColor 255 255 0
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+	MinimapIcon 2 Blue Hexagon
+
+#顯示,淡藍字,品質1UP,白框
+Show
+    Class "Skill Gems"
+    Quality >= 1
+    SetBorderColor 255 255 255
+    SetTextColor 107 253 246
+
+#顯示,特殊基底,透白框,透白字,透底,字體35
+Show
+    BaseType "Steel Ring" "Opal Ring" "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Silk Gloves"
+    Rarity = Normal
+    SetBorderColor 255 255 255 150
+    SetTextColor 255 255 255 100
+    SetBackgroundColor 0 0 0 200
+    SetFontSize 35
+
+#顯示,淡藍字,黑底
+Show
+    Class "Skill Gems"
+    SetTextColor 107 253 246
+    SetBackgroundColor 0 0 0 200
+
+#顯示,特殊道具1,金框,字體35
+Show
+    BaseType "Albino Rhoa Feather" "Sacrificial Garb" "Fishing Rod"
+    SetBorderColor 255 255 0
+    SetFontSize 35
+	MinimapIcon 0 Brown Star
+
+
+#顯示,製圖釘材料,稀有度普通,白框,透明深紫字,透明灰底
+Show
+    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
+    Rarity = Normal
+    SetBorderColor 255 255 255
+    SetTextColor 127 0 255
+
+#不顯示,物品稀有度普通,魔法
+Hide
+    Rarity = Magic
+    Class "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Bow" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Sceptres" "Gloves" "Boots" "Body" "Armours" "Helmets" "Shields" "Amulets" "Rings" "Quivers" "Belts"
+
+#不顯示,物品稀有度普通,魔法
+Hide
+    Rarity = Normal
+    ItemLevel <= 83
+    Class "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Bow" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Sceptres" "Gloves" "Boots" "Body" "Armours" "Helmets" "Shields" "Amulets" "Rings" "Quivers" "Belts"
+
+
+#顯示,特殊道具,黑框,橘底,黑字,字體42
+Show
+    BaseType "Albino Rhoa Feather" "Fishing Rod" "Offering to the Goddess" "Cartographer's Sextant" "Cartographer's Seal" "Shaper's Orb" "Unshaping Orb"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 255 128 0
+    SetTextColor 0 0 0
+    SetFontSize 42
+    PlayAlertSound 7 300
+
+Hide
+    Rarity = Magic Normal
+    ItemLevel <= 83
+    Class "Flasks"
+
+Show
+    BaseType "Quicksilver Flask"
+    Rarity = Normal Magic
+    SetTextColor 255 255 255 100
+    SetFontSize 35

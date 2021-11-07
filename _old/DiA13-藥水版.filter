@@ -1,0 +1,196 @@
+﻿#顯示,任務道具,字體35
+Show
+    Class 任務
+    SetFontSize 35
+
+#顯示,傳奇物品,橘框,字體35
+Show
+    Rarity = Unique
+    SetBorderColor 255 128 0
+    SetFontSize 35
+
+#顯示,三色連線,草綠框
+Show
+    SocketGroup RGB
+    SetBorderColor 0 255 128
+
+#顯示,地圖,汙染門,白框,草綠字,字體35
+Show
+    Class 地圖 地圖碎片
+    DropLevel <= 74
+    SetBorderColor 255 255 255
+    SetTextColor 0 255 128
+    SetFontSize 35
+
+#顯示,地圖,汙染門,金框,草綠字,字體42
+Show
+    Class 地圖 地圖碎片
+    DropLevel >= 75
+    DropLevel <= 79
+    SetBorderColor 255 255 0
+    SetTextColor 0 255 128
+    SetFontSize 42
+
+#顯示,地圖,汙染門,金框,橘字,字體42
+Show
+    Class 地圖 地圖碎片
+    DropLevel >= 80
+    SetBorderColor 255 255 0
+    SetTextColor 255 128 0
+    SetFontSize 42
+
+#顯示,卡片,透白框,白字,字體42
+Show
+    Class 命運卡
+    SetBorderColor 255 255 255 150
+    SetTextColor 255 255 255
+    SetFontSize 42
+
+#顯示,天賦寶珠,藍框,字體42
+Show
+    BaseType 珠寶
+    SetBorderColor 255 153 51
+    SetFontSize 42
+
+#顯示,五連裝,橘框,白字,字體35
+Show
+    LinkedSockets 5
+    SetBorderColor 255 128 0
+    SetFontSize 35
+
+#顯示,六連以上,橘框,白字,字體35
+Show
+    LinkedSockets 6
+    SetBorderColor 255 128 0
+    SetTextColor 255 255 255
+    SetFontSize 35
+
+#顯示,六插槽,橘框,字體35
+Show
+    Sockets = 6
+    SetBorderColor 255 255 0
+    SetFontSize 35
+
+#顯示,所有稀有物品
+Show
+    Rarity = Rare
+    Class 弓 細劍 法杖 爪 匕首 單手劍 單手斧 單手錘 長杖 雙手劍 雙手斧 雙手錘 權杖 手套 鞋子 胸甲 頭部 盾 箭袋 腰帶 項鍊 戒指
+
+#顯示,所有物等84UP,深紅框,粉紅字,黑底
+Show
+    Class 弓 細劍 法杖 爪 匕首 單手劍 單手斧 單手錘 藥劑 長杖 雙手劍 雙手斧 雙手錘 權杖 手套 鞋子 胸甲 頭部 盾 箭袋 腰帶 項鍊 戒指 
+    ItemLevel >= 84
+    SetBorderColor 204 0 0
+    SetTextColor 255 204 204
+    SetBackgroundColor 0 0 0
+
+
+Show
+    BaseType 普蘭德斯金幣
+    SetFontSize 45
+
+
+#顯示,通貨,白框
+Show
+    BaseType 傳送卷軸 知識卷軸 護甲片 磨刀石
+    SetBorderColor 255 255 255
+    SetTextColor 255 255 255 200
+    SetFontSize 45
+
+#顯示,一般通貨,紅字,字體35
+Show
+    Class 通貨
+    BaseType 鏈結石 重鑄石 機會石 祝福石 製圖釘 工匠石 點金石 改造石 幻色石 蛻變石 增幅石 玻璃彈珠
+    SetTextColor 255 102 102
+    SetFontSize 45
+
+#顯示,高價通貨,紅字,橘框,字體42
+Show
+    Class 通貨
+    BaseType 富豪石 混沌石 後悔石 寶石匠的稜鏡 瓦爾寶珠  
+    SetTextColor 255 102 102
+    SetBorderColor 255 255 0
+    SetFontSize 45
+
+#顯示,天價通貨,白字,橘框,字體42
+Show
+    Class 通貨
+    BaseType 卡蘭德的魔鏡 永恆寶珠 崇高石 神聖石
+    SetTextColor 255 102 102
+    SetBorderColor 255 128 0
+    SetFontSize 45
+
+#顯示,金字,透紫框,黑底,字體35
+Show
+    Class 技能寶石
+    BaseType 時空之門 啟蒙 賦予 增幅
+    SetBorderColor 204 204 0 200
+    SetTextColor 255 255 0
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+#顯示,淡藍字,品質1UP,白框
+Show
+    Class 技能寶石
+    Quality >= 1
+    SetBorderColor 255 255 255
+    SetTextColor 107 253 246
+
+#顯示,特殊基底,透白框,透白字,透底,字體35
+Show
+    BaseType 鋼鑄戒指 蛋白石戒指 理石護身符 碧珠護身符 先鋒腰帶 水晶腰帶 喚骨頭盔 異色鞋 釦釘手套 擒拿手套 絲綢手套
+    Rarity = Normal
+    SetBorderColor 255 255 255 150
+    SetTextColor 255 255 255 100
+    SetBackgroundColor 0 0 0 200
+    SetFontSize 35
+
+#顯示,淡藍字,黑底
+Show
+    Class 技能寶石
+    SetTextColor 107 253 246
+    SetBackgroundColor 0 0 0 200
+
+#顯示,特殊道具1,金框,字體35
+Show
+    BaseType 白化的羽毛 祭禮束衣 魚竿
+    SetBorderColor 255 255 0
+    SetFontSize 35
+
+#顯示,機會石,金框,透白字,字體35
+Show
+    BaseType 術士長靴
+    Rarity = Normal
+    SetBorderColor 255 255 0
+    SetTextColor 255 255 255 100
+    SetFontSize 35
+
+
+#顯示,製圖釘材料,稀有度普通,白框,透明深紫字,透明灰底
+Show
+    BaseType 石錘 破岩錘 堅錘
+    Rarity = Normal
+    SetBorderColor 255 255 255
+    SetTextColor 127 0 255
+
+#不顯示,物品稀有度普通,魔法
+Hide
+    Rarity = Magic Normal
+    ItemLevel <= 83
+    Class 弓 細劍 法杖 爪 匕首 單手劍 單手斧 單手錘 長杖 雙手劍 雙手斧 雙手錘 權杖 手套 鞋子 胸甲 頭部 盾 箭袋 腰帶 項鍊 戒指
+
+#顯示,特殊道具,黑框,橘底,黑字,字體42
+Show
+    BaseType 白化的羽毛 魚竿 女神祭品 製圖六分儀 製圖封印 塑界玉 還原玉
+    SetBorderColor 0 0 0
+    SetBackgroundColor 255 128 0
+    SetTextColor 0 0 0
+    SetFontSize 42
+    PlayAlertSound 7 300
+
+
+Show
+    BaseType 水銀藥劑
+    Rarity = Normal Magic
+    SetTextColor 255 255 255 100
+    SetFontSize 35
