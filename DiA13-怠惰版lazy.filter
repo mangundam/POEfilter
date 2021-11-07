@@ -125,6 +125,17 @@ Hide
 	Class "Jewel"
 
 #***********通貨***********
+#Scourge
+Show
+	Class Currency
+    BaseType "Tainted "
+    SetTextColor 244 161 54
+    SetBorderColor 236 179 75 200
+    SetFontSize 45
+	#PlayEffect Red
+	#MinimapIcon 0 Red Diamond
+
+
 Hide
 	BaseType "Scroll of Wisdom" 
 	
@@ -139,7 +150,7 @@ Show
 Show
     
 	Class Currency
-    BaseType "Simulacrum" "Simulacrum Splinter" "Timeless Vaal Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Maraketh Splinter" "Timeless Karui Splinter"
+    BaseType "Simulacrum" "Simulacrum Splinter" "Timeless Vaal Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Maraketh Splinter" "Timeless Karui Splinter" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Eternal Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
     SetTextColor 200 102 220
     SetFontSize 40
 	PlayEffect Green

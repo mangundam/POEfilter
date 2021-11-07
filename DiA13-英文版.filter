@@ -127,6 +127,17 @@ Show
 
 
 #***********通貨***********
+#Scourge
+Show
+	Class Currency
+    BaseType "Tainted "
+    SetTextColor 244 161 54
+    SetBorderColor 236 179 75 200
+    SetFontSize 45
+	#PlayEffect Red
+	#MinimapIcon 0 Red Diamond
+
+
 #顯示,通貨,白框
 Show
     BaseType "Portal Scroll" "Scroll of Wisdom" "Blacksmith's Whetstone" "Armourer's Scrap"
@@ -138,7 +149,7 @@ Show
 Show
     
 	Class Currency
-    BaseType "Simulacrum" "Simulacrum Splinter" "Timeless Vaal Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Maraketh Splinter" "Timeless Karui Splinter"
+    BaseType "Simulacrum" "Simulacrum Splinter" "Timeless Vaal Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Maraketh Splinter" "Timeless Karui Splinter" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Eternal Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
     SetTextColor 200 102 220
     SetFontSize 40
 	PlayEffect Green
@@ -193,6 +204,7 @@ Show
 #***********通貨***********
 
 #***********聯盟道具***********
+
 #Expedition
 Show
 	BaseType "Expedition Logbook"
@@ -531,7 +543,7 @@ Show
 ###
 #藥水
 Show
-    BaseType "Quartz Flask"
+    BaseType "Gold Flask" "Corundum Flask" "Iron Flask"
     Rarity = Normal Magic
     SetTextColor 255 255 255 100
     SetFontSize 35

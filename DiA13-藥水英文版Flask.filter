@@ -122,6 +122,17 @@ Show
     SetFontSize 42
 
 #***********通貨***********
+#Scourge
+Show
+	Class Currency
+    BaseType "Tainted "
+    SetTextColor 244 161 54
+    SetBorderColor 236 179 75 200
+    SetFontSize 45
+	#PlayEffect Red
+	#MinimapIcon 0 Red Diamond
+
+
 #顯示,通貨,白框
 Show
     BaseType "Portal Scroll" "Scroll of Wisdom" "Blacksmith's Whetstone" "Armourer's Scrap"
@@ -133,7 +144,7 @@ Show
 Show
     
 	Class Currency
-    BaseType "Simulacrum" "Simulacrum Splinter" "Timeless Vaal Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Maraketh Splinter" "Timeless Karui Splinter"
+    BaseType "Simulacrum" "Simulacrum Splinter" "Timeless Vaal Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Maraketh Splinter" "Timeless Karui Splinter" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Eternal Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
     SetTextColor 200 102 220
     SetFontSize 40
 	PlayEffect Green
@@ -189,6 +200,9 @@ Show
 #***********通貨***********
 
 #***********聯盟道具***********
+
+
+
 #Expedition
 Show
 	BaseType "Expedition Logbook"
@@ -309,29 +323,7 @@ Show
 	SetBackgroundColor 9 42 62
 	SetFontSize 45
 	
-#Seed Enhancer
-#Show
-	#Class "Seed Enhancer"
-	#SetTextColor 51 186 239
-	#SetBackgroundColor 9 42 62
-	#SetFontSize 45
-	#MinimapIcon 2 Blue Raindrop
-	
-#一階種子
-#Show
-	#BaseType Seed
-	#SetTextColor 147 88 71
-	#SetBackgroundColor 9 42 62
-	#SetFontSize 40
-	
 
-#三階種子
-#Show
-	#BaseType Bulb
-	#SetTextColor 193 219 152
-	#SetBackgroundColor 9 42 62
-	#SetFontSize 44
-	
 #女神祭品
 Show
 	BaseType "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
