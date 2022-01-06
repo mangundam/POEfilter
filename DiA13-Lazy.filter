@@ -424,6 +424,15 @@ Hide
     SetTextColor 255 204 204 
     SetBackgroundColor 0 0 0 
 
+#顯示,物等84UP,最高級基底,深紅框,粉紅字,黑底
+Hide
+    Rarity = Normal
+    Class "Warstaves" "Rune Daggers" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Bow" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Sceptres" "Gloves" "Boots" "Body" "Armours" "Helmets" "Shields" "Amulets" "Rings" "Quivers" "Belts"
+    ItemLevel >= 84
+    SetBorderColor 204 0 0 80
+    SetTextColor 200 0 0 200
+    SetBackgroundColor 0 0 0 80 
+
 #顯示,所有物等84UP,深紅框,粉紅字,黑底
 Hide
     Rarity = Normal

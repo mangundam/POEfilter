@@ -79,7 +79,7 @@ Show
 
 #顯示,機會石,金框,透白字,字體35
 #Show
-    #BaseType "Sorcerer Boots"
+    #BaseType "Spidersilk Robe"
     #Rarity = Normal
     #SetBorderColor 255 255 0
     #SetTextColor 255 255 255 100
@@ -415,7 +415,7 @@ Show
     SetBorderColor 255 0 0 150
 	
 #角色用的武器
-Hide
+Show
 	Rarity = Rare
 	Class "Wands"
 	
@@ -437,6 +437,17 @@ Hide
     SetBorderColor 204 0 0 
     SetTextColor 255 204 204 
     SetBackgroundColor 0 0 0 
+	
+#顯示,物等84UP,最高級基底,深紅框,粉紅字,黑底
+Hide
+    Rarity = Normal
+    BaseType "Runic Gauntlets" "Slink Gloves" "Murder Mitts" "Sorcerer Gloves" "Titan Gauntlets" "Dragonscale Gauntlets" "Crusader Gloves" "Zodiac Leather" "Saintly Chainmail" "Triumphant Lamellar" "Sadist Garb" "Vaal Regalia" "Glorious Plate" "General's Brigandine" "Two-Toned Boots" "Runic Sabatons" "Slink Boots" "Murder Boots" "Titan Greaves" "Sorcerer Boots" "Lion Pelt" "Hubris Circlet" "Eternal Burgonet" "Runic Crown" "Praetor Crown" "Deicide Mask" "Nightmare Bascinet"
+    ItemLevel >= 84
+    SetBorderColor 204 188 188 180
+    SetTextColor 200 100 100 200
+    SetBackgroundColor 80 80 80 80 
+
+	
 
 #顯示,所有物等84UP,深紅框,粉紅字,黑底
 Hide
@@ -449,7 +460,7 @@ Hide
 	
 #特別中意的基底
 Show
-	BaseType "Vaal Regalia"
+	BaseType "Spidersilk Robe"
 	Rarity = Normal
     SetBorderColor 180 180 180 150
     SetTextColor 180 180 180 100
@@ -552,7 +563,7 @@ Show
 ###
 #藥水
 Show
-    BaseType "Gold Flask" "Corundum Flask" "Iron Flask"
+    BaseType "Iron Flask" "Quicksilver" "Amethyst"
     Rarity = Normal Magic
     SetTextColor 255 255 255 100
     SetFontSize 35
