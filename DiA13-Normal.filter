@@ -4,7 +4,7 @@
 
 #顯示,任務道具,字體35
 Show
-    Class "Quest Item" "Atlas Region Upgrade Item"
+    Class "Quest Item" "Atlas Upgrade Item"
     SetFontSize 35
 	
 #挑戰
@@ -179,7 +179,7 @@ Show
 #顯示,聯盟通貨,紅字,字體35
 Show
     Class Currency
-    BaseType "Enkindling Orb" "Instilling Orb" "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Silver Coin" "Ancient Orb" "Annulment Shard" "Binding Shard" "Horizon Shard" "Harbinger's Shard" "Engineer's Shard" "Ancient Shard" "Chaos Shard" "Regal Shard" "Stacked Deck"
+    BaseType "Enkindling Orb" "Instilling Orb" "Engineer's Orb" "Orb of Binding" "Orb of Horizons" "Ancient Orb" "Annulment Shard" "Binding Shard" "Horizon Shard" "Harbinger's Shard" "Engineer's Shard" "Ancient Shard" "Chaos Shard" "Regal Shard" "Stacked Deck"
     SetFontSize 45
 	
 #顯示,高價通貨,紅字,橘框,字體42
@@ -204,6 +204,29 @@ Show
 #***********通貨***********
 
 #***********聯盟道具***********
+#Siege
+Show
+	BaseType "Charged Compass" "Surveyor's Compass" "Eldritch Ember" "Eldritch Ichor" "Charged Compass" "Orb of Conflict" "Orb of Dominance" "Oil Extractor"
+	SetTextColor 70 158 196
+	SetBackgroundColor 230 200 151 100
+	SetBorderColor 180 180 180
+	SetFontSize 40
+
+Show
+	BaseType "Scouting Report"
+	SetTextColor 70 158 196
+	SetBackgroundColor 230 200 151 100
+	SetBorderColor 180 180 180
+	SetFontSize 40
+	
+Show
+	Class "Archnemesis Mod"
+	SetTextColor 90 174 187
+	SetBackgroundColor 40 40 40
+	#SetBorderColor 180 180 180
+	SetFontSize 40
+	MinimapIcon 0 Blue Diamond
+
 
 #Expedition
 Show
@@ -243,7 +266,7 @@ Show
 	
 #Ritual
 Show
-	BaseType "Orb of Unmaking" "Maven's Orb" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "The Maven's Writ" "Blood-filled Vessel"
+	BaseType "Orb of Unmaking" "Ritual Splinter" "Ritual Vessel" "Crescent Splinter" "The Maven's Writ" "Blood-filled Vessel"
 	SetTextColor 255 255 255
 	SetBackgroundColor 150 11 23 200
 	SetFontSize 40
@@ -415,9 +438,9 @@ Show
     SetBorderColor 255 0 0 150
 	
 #角色用的武器
-Show
-	Rarity = Rare
-	Class "Wands"
+#Show
+	#Rarity = Rare
+	#Class "Wands"
 	
 #隱藏單手武器,搬磚用
 Hide
@@ -459,7 +482,7 @@ Hide
     SetBackgroundColor 0 0 0 80 
 	
 #特別中意的基底
-Show
+Hide
 	BaseType "Spidersilk Robe"
 	Rarity = Normal
     SetBorderColor 180 180 180 150
@@ -553,7 +576,7 @@ Hide
 
 #顯示,特殊道具,黑框,橘底,黑字,字體42
 Show
-    BaseType "Offering to the Goddess" "Awakened Sextant" "Prime Sextant" "Simple Sextant" "Cartographer's Seal" "Shaper's Orb" "Unshaping Orb"
+    BaseType "Offering to the Goddess" "Awakened Sextant" "Cartographer's Seal" "Shaper's Orb" "Unshaping Orb"
     SetBorderColor 0 0 0
     SetBackgroundColor 255 128 0
     SetTextColor 0 0 0
@@ -563,7 +586,7 @@ Show
 ###
 #藥水
 Show
-    BaseType "Iron Flask" "Quicksilver" "Amethyst"
+    BaseType "Iron Flask" "Quicksilver" "Amethyst" "Granite"
     Rarity = Normal Magic
     SetTextColor 255 255 255 100
     SetFontSize 35
