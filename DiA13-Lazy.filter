@@ -205,6 +205,29 @@ Show
 #***********通貨***********/
 
 #***********聯盟道具***********
+#LOK
+Show
+	BaseType "Reflective Oil" "Ultimatum Aspect" "Mirrored Tablet" "Engraved Ultimatum" "Niko's Memory" "Alva's Memory" "Kirac's Memory" "Einhar's Memory"
+	SetTextColor 36 46 56
+	SetBackgroundColor 148 169 200
+	SetBorderColor 224 255 255
+	SetFontSize 40
+
+#Sentinel
+#Show
+	#BaseType "Core" "Recombinator"
+	#SetTextColor 255 255 255
+	#SetBackgroundColor 74 80 254 180
+	#SetBorderColor 255 255 255
+	#SetFontSize 40
+
+#Show
+	#Class "Sentinel Drone"
+	#SetTextColor 255 255 255
+	#SetBackgroundColor 74 80 254 100
+	#SetBorderColor 255 255 255
+	#SetFontSize 40
+	
 #Archnemesis
 Show
 	BaseType "Charged Compass" "Surveyor's Compass" "Eldritch Ember" "Eldritch Ichor" "Charged Compass" "Orb of Conflict" "Orb of Dominance" "Oil Extractor"
@@ -220,13 +243,13 @@ Show
 	SetBorderColor 180 180 180
 	SetFontSize 40
 	
-Show
-	Class "Archnemesis Mod"
-	SetTextColor 90 174 187
-	SetBackgroundColor 40 40 40
+#Show
+	#Class "Archnemesis Mod"
+	#SetTextColor 90 174 187
+	#SetBackgroundColor 40 40 40
 	#SetBorderColor 180 180 180
-	SetFontSize 40
-	MinimapIcon 0 Blue Diamond
+	#SetFontSize 40
+	#MinimapIcon 0 Blue Diamond
 
 #Expedition
 Show
@@ -323,7 +346,7 @@ Show
 #精隨
 Show
 	Class Currency
-	BaseType "Deafening" "Horror" "Insanity" "Shrieking" "Delirium" "Hysteria" "Remnant of Corruption"
+	BaseType "Deafening" "Horror" "Insanity" "Shrieking" "Delirium" "Hysteria" "Remnant of Corruption" "Screaming"
 	SetTextColor 20 180 240
 	SetFontSize 40
 	
@@ -352,7 +375,7 @@ Show
 #HARVEST
 Show
 	Class Currency
-	BaseType "Infused Engineer's Orb" "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens"
+	BaseType "Lifeforce" "Infused Engineer's Orb" "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens"
 	SetTextColor 51 186 239
 	SetBackgroundColor 9 42 62
 	SetFontSize 45
