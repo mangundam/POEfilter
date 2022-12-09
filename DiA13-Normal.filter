@@ -18,7 +18,7 @@ Show
 
 #顯示,古典鑰匙
 Show
-	BaseType "Ancient Reliquary Key"
+	BaseType "Ancient Reliquary Key" "Treasure Key"
 	SetBorderColor 120 255 120
 	SetFontSize 45
 	MinimapIcon 0 Green Star
@@ -204,6 +204,21 @@ Show
 #***********通貨***********
 
 #***********聯盟道具***********
+#The Forbidden Sanctum
+Show
+	BaseType "Fracturing Orb" "Fracturing Shard"
+	SetTextColor 251 218 111
+	#SetBackgroundColor 148 169 200
+	SetBorderColor 224 168 87
+	SetFontSize 40
+	
+Show
+	Class "Relic" "Sanctified Relic"
+	SetTextColor 251 218 111
+	#SetBackgroundColor 148 169 200
+	SetBorderColor 224 168 87
+	SetFontSize 40
+
 #LOK
 Show
 	BaseType "Reflective Oil" "Ultimatum Aspect" "Mirrored Tablet" "Engraved Ultimatum" "Niko's Memory" "Alva's Memory" "Kirac's Memory" "Einhar's Memory"
